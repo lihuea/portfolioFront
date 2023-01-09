@@ -1,0 +1,19 @@
+<div class="habilidadesclass">
+  <div class="container-fluid">
+<div class="card mat-card" id="forth-card">
+  <div class="d-grid gap-2 d-md-flex justify-content-md">
+    <h2>Hard & Soft Skills</h2>
+     <div class="btn-edit"><a routerLink="/panel" class="btn-right"><i class= "fa fa-pen"></i></a></div>
+  </div>  
+    <ul id="habilidades">
+      <li *ngFor="let skills of habilidadesList">
+        <h6>{{skills.nombre}} </h6>
+        <div class="progress mb-2">
+        <div class="progress-bar" role="progressbar" aria-label="JavaScript" style="width: {{skills.porcentaje}}%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">{{skills.porcentaje}}%</div>
+      </div>
+    
+      </li>
+    </ul>    
+</div>
+</div>
+</div>

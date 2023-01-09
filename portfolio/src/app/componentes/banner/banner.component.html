@@ -1,0 +1,50 @@
+
+<div class="bannerclass">
+  <div class="container-fluid">
+<div class="card mat-card" id= "first-card"> 
+    <div id="profile-background"> <img [src]="miPortfolio.fotoBanner" alt="Techos y nubes rosas" class="img-fluid"> </div>
+    <div id="info" style="padding: 16px">
+        
+        <div id="info-data">
+            <div>
+               <div id="info-contact">
+                <div class="btn-edit"><a routerLink="/panel" class="btn-right"><i class= "fa fa-pen"></i></a></div>
+                <h4> {{miPortfolio.ubicacion}}  </h4> 
+               </div>
+            </div>
+
+        <ul id="info-details">
+            <li *ngFor="let detalles of detallesList"><a href={{detalles.url}} target="_blank">
+                <img [src]="detalles.imagen">
+                <h2>{{detalles.nombre}}</h2>
+            </a></li>
+        </ul> 
+        </div>
+        <div id="info-action">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Información de contacto
+              </button>
+            <button class="btn btn-light" type="button"> Añadir Sección</button>
+        </div>
+    <!-- Modal info contacto -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Información de contacto</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Email: lihuealvarezz@gmail.com
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+

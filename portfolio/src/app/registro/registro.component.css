@@ -1,0 +1,13 @@
+.mat-card {
+    border-radius: 32px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 1.25rem;
+}
+
+.formulario-registro {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

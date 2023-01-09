@@ -1,0 +1,80 @@
+<div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="list-redes" role="tabpanel" aria-labelledby="list-redes-list">
+      <div class="container px-6">
+        <div class="row"> 
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3">
+            <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#agregarRedesModal">
+              Agregar </button>
+          </div>
+          <div class="list-group redesList" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-redesUno-list" data-bs-toggle="list" href="#list-redesUno" role="tab" aria-controls="list-redesUno">
+            Instagram</a>
+            <a class="list-group-item list-group-item-action" id="list-redesDos-list" data-bs-toggle="list" href="#list-redesDos" role="tab" aria-controls="list-redesDos">
+            GitHub </a>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="list-redesUno" role="tabpanel" aria-labelledby="list-redesUno-list">
+          <div class="container px-6">
+            <form>
+            <div class="mb-3 mt-4">
+              <label for="fotoPerfil" class="form-label">Imagen del Logo</label>
+              <input class="form-control" type="file" id="fotoBanner">
+            </div>
+            <div class="mb-3 mt-3">                   
+              <label for="exampleFormControlInput1" class="form-label">Url</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Url de Instagram">
+            </div>  
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button type="button" class="btn btn-primary">Guardar</button>
+              <button type="button" class="btn btn-dark">Eliminar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>  
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show" id="list-redesDos" role="tabpanel" aria-labelledby="list-redesDos-list">
+        <div class="container px-6">
+          <form>
+          <div class="mb-3 mt-4">
+            <label for="fotoPerfil" class="form-label">Imagen del Logo</label>
+            <input class="form-control" type="file" id="fotoLogo">
+          </div>
+          <div class="mb-3 mt-3">                   
+            <label for="exampleFormControlInput1" class="form-label">Url</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Url de GitHub">
+          </div>  
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button type="button" class="btn btn-primary">Guardar</button>
+            <button type="button" class="btn btn-dark">Eliminar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>  
+</div> 
+</div> 
+    <!-- Modal -->
+    <div class="modal fade" id="agregarRedesModal" tabindex="-1" aria-labelledby="agregarRedesModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Agregar Redes</h1>
+          </div>
+          <div class="container mb-3 mt-3">
+            <label for="fotoPerfil" class="form-label">Imagen del Logo</label>
+            <input class="form-control" type="file" id="fotoLogo">
+          </div>
+          <div class="container mb-3">                   
+            <label for="exampleFormControlInput1" class="form-label">Url</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Url de la red social">
+          </div> 
+          <div class="modal-footer">                        
+            <button type="button" class="btn btn-primary">Guardar</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>   
+      </div>
+    </div>   

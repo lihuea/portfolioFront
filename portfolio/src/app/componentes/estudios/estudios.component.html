@@ -1,0 +1,22 @@
+<div class="estudiosclass">
+    <div class="container-fluid">
+<div class="card mat-card" id="third-card">
+    <div class="card-titles">
+        <div class="d-grid gap-2 d-md-flex justify-content-md">
+            <h2> Estudios</h2>
+             <div class="btn-edit"><a routerLink="/panel" class="btn-right"><i class= "fa fa-pen"></i></a></div>
+          </div>
+        
+    </div>
+    <ul id="estudios">
+        <li *ngFor="let estudios of estudiosList">
+            <img [src]="estudios.imagen">
+             <h4>{{estudios.nombre}} </h4>
+            <p>{{estudios.titulo}} </p>
+            <p>{{estudios.comienzo}} - {{estudios.finalizacion}} </p> 
+        </li>
+    </ul>
+</div>
+</div>
+</div>
+

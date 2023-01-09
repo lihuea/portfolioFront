@@ -1,0 +1,26 @@
+.mat-card {
+    border-radius: 32px;
+    margin: 0.62rem 0.62rem;
+    padding: 1.25rem;
+    border-color: black;
+}
+.perfil{
+    border-radius: 60%;
+    width: 170px;
+    height: 170px;
+    margin-top: -25px;
+    z-index: 1;
+}
+
+.list-group-item1{
+    background-color: black;
+}
+.fa-solid.fa-user.fa-2x:hover{
+    background-color: black;
+    --bs-text-opacity: 1;
+    color:#127e7e !important;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}

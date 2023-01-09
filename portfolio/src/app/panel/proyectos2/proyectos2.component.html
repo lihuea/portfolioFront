@@ -1,0 +1,57 @@
+<div class="tab-content" id="nav-tabContent">  
+    <div class="tab-pane fade" id="list-proyectos" role="tabpanel" aria-labelledby="list-proyectos-list">
+      <div class="container px-7">
+        <div class="row"> 
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3">
+            <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#agregarProyectosModal">
+              Agregar </button>
+          </div>
+          <form>
+            <div class="mb-3">
+              <label for="experiencia" class="form-label">Proyectos</label>
+              <input type="text" class="form-control" id="experiencia">                        
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button type="button" class="btn btn-primary">Guardar</button>
+              <button type="button" class="btn btn-dark">Eliminar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="agregarProyectosModal" tabindex="-1" aria-labelledby="agregarProyectosModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Agregar Proyectos</h1>
+          </div>                
+          <div class="container mb-3 mt-3">                   
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del Proyecto">
+          </div>
+          <div class=" container mb-3">
+            <label for="informacion" class="form-label">Descripción</label>                        
+            <textarea class="form-control"  id="informacion" style="height: 100px">
+            </textarea>
+          </div>
+          <div class="container mb-3 mt-2">
+            <label for="imagen" class="form-label">Imagen</label>
+            <input class="form-control" type="file" id="imagen">
+          </div>
+          <div class="container mb-3 mt-3">                   
+            <label for="exampleFormControlInput1" class="form-label">Url</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Url del Proyecto">
+          </div>                                       
+          <div class="container mb-3 mt-2">
+            <input type="text" class="form-control" placeholder="Fecha de Inicio" aria-label="Inicio">
+            <input type="text" class="form-control" placeholder="Fecha de Finalización" aria-label="Fin">
+          </div>
+          <div class="modal-footer">                        
+            <button type="button" class="btn btn-primary">Guardar</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>

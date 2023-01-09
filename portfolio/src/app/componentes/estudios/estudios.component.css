@@ -1,0 +1,33 @@
+.mat-card {
+    border-radius: 2em;
+    margin: 0.62em 0.62em;
+    padding: 1.25em;
+}
+
+.d-grid.gap-2.d-md-flex.justify-content-md a{
+    color: black;
+}
+
+div#third-card ul#estudios {
+    list-style: none;
+}
+
+div#third-card ul#estudios li img{
+    display: block;
+    width: 10%;
+    border-radius: 5em 5em ;
+    float: left;
+    margin-left: -2.18em;
+    margin-top: 2.1em;
+    
+}
+
+div#third-card ul#estudios h4{
+    padding: 1.25em;
+    margin-left: 3.4em;
+}
+
+div#third-card ul#estudios li p{
+    display: block;
+    margin-left: 6.7em;
+}

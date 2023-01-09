@@ -1,0 +1,116 @@
+{
+    "nombre": "Lihué",
+    "apellido": "Alvarez",
+    "redes": [
+        {
+            "id": 0,
+            "icono": "fa-instragram",
+            "url": "https://www.instagram.com/lihue_alvarez/"
+        },
+        {
+            "id": 1,
+            "icono": "fa-github",
+            "url": "https://github.com/lihuea"
+        },
+        {
+            "id": 2,
+            "icono": "fa-user-lock",
+            "url": "/login"
+        }
+    ],
+    "fotoBanner": "/assets/bannerimg.png",
+    "detalles": [
+        {
+            "id": 0,
+            "nombre": "Argentina Programa",
+            "imagen": "/assets/argplogo.png",
+            "url": "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"
+        },
+        {
+            "id": 1,
+            "nombre": "Universidad del Siglo 21",
+            "imagen": "/assets/siglo21.0.jpg",
+            "url": "https://21.edu.ar/"
+        }
+    ],
+    "ubicacion": "Mendoza, Argentina",
+    "info": "Desarroladora Full Stack Jr. Actualmente estudiante de Marketing y Publicidad digital en la Universidad del Siglo 21.",
+    "experiencia": "No posee",
+    "estudios": [
+        {
+            "id": 0,
+            "nombre":"Universidad del Siglo 21",
+            "imagen": "/assets/siglo21.0.jpg",
+            "titulo": "Tecnicatura en Marketing y publicidad digital",
+            "comienzo": 2021,
+            "finalizacion": "Actualidad"
+        },
+        {
+            "id": 1,
+            "nombre": "Centro Polivalente de Arte",
+            "imagen": "/assets/cpa.jpg",
+            "titulo": "Escuela Secundaria - Bachiller en Artes Visuales con especialidad en Producción Cerámica",
+            "comienzo": 2015,
+            "finalizacion": 2019
+        },
+        {
+            "id": 2,
+            "nombre": "Argentina Programa #SeProgramar",
+            "imagen": "/assets/argplogo.png",
+            "titulo": "Curso de Lenguaje Pseudocodigo-Javascript-Ruby (Primera Etapa)",
+            "comienzo": 2022,
+            "finalizacion": 2022
+        },
+        {
+            "id": 3,
+            "nombre": "Argentina Programa #YoProgramo",
+            "imagen": "/assets/argplogo.png",
+            "titulo": "Curso Fullstack Web Developer Jr (Segunda Etapa)",
+            "comienzo": 2022,
+            "finalizacion": 2023
+        }
+    ],
+    "skills": [
+        {
+            "id": 0,
+            "nombre": "JavaScript",
+            "porcentaje": 30
+        },
+        {
+            "id": 1,
+            "nombre": "HTML",
+            "porcentaje": 50
+        },
+        {
+            "id": 2,
+            "nombre": "CSS con Bootstrap",
+            "porcentaje": 50
+        },
+        {
+            "id": 3,
+            "nombre": "Angular",
+            "porcentaje": 25
+        },
+        {
+            "id": 4,
+            "nombre": "Trabajo en equipo",
+            "porcentaje": 100
+        },
+        {
+            "id": 5,
+            "nombre": "Proactividad",
+            "porcentaje": 100
+        },
+        {
+            "id": 6,
+            "nombre": "Comunicación oral y escrita",
+            "porcentaje": 90
+        },
+        {
+            "id": 7,
+            "nombre": "Resolución de problemas",
+            "porcentaje": 90
+        }
+    ],
+    "proyectos": "No tiene"
+}

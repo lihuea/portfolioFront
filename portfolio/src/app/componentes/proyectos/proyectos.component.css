@@ -1,0 +1,10 @@
+
+.mat-card {
+    border-radius: 2em;
+    margin: 0.62em 0.62em;
+    padding: 1.25em;
+}
+
+.d-grid.gap-2.d-md-flex.justify-content-md a{
+    color: black;
+}

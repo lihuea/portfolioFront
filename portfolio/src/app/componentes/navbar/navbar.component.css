@@ -1,0 +1,22 @@
+.bg-black{
+    background-color: black;
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+.fa-brands.fa-instagram.fa-2x:hover{
+    --bs-text-opacity: 1;
+    color: #740974 !important;
+}
+
+.fa-brands.fa-github.fa-2x:hover{
+    --bs-text-opacity: 1;
+    color:green !important;
+}
+
+.fa-solid.fa-user-lock.fa-2x:hover{
+    --bs-text-opacity: 1;
+    color:#127e7e !important;
+}
